@@ -4,8 +4,13 @@
 sudo cp hosts /etc/hosts
 sudo cp hostname /etc/hostname
 
+# Enable SSH
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
+# Update/ugprade
 sudo apt -y update
-sudo apt -y full-upgrade
+sudo apt -y upgrade
 
 # Teamviewer setup
 wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
