@@ -1,8 +1,8 @@
 # pi-nvr Installation
 
 - Download and install [the Raspberry Pi Imager](https://www.raspberrypi.org/software/)
-- Select "Raspberry Pi OS (32-bit) and write the image to your SD Card
-- Insert the SD Card into the Raspberry Pi and boot up
+- Select "Raspberry Pi OS (32-bit)" and write the image to your SD Card
+- Insert the SD Card into the Raspberry Pi and boot up. You'll need to run through initial setup (Wi-Fi, timezone, etc) and reboot
 - Open a terminal and clone the repo
 ```bash
 git clone https://github.com/crocokyle/pi-nvr.git
