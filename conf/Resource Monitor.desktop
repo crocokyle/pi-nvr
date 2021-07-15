@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Encoding=UTF-8
+Name=Resource Monitor
+Comment=Resource Monitor
+Exec=gnome-system-monitor
+Icon=/home/pi/pi-nvr/img/resmon.png
+Terminal=false
+Categories=Graphics

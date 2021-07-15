@@ -16,9 +16,11 @@ sudo apt -y upgrade
 wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
 sudo dpkg -i teamviewer-host_armhf.deb
 sudo apt --fix-broken install
+sudo rm teamviewer-host_armhf.deb
 
 # ddclient setup
 wget https://github.com/ddclient/ddclient/archive/refs/tags/v3.9.1.tar.gz
+tar -xvf v3.9.1.tar.gz
 ./configure \
     --prefix=/usr \
     --sysconfdir=/etc/ddclient \
