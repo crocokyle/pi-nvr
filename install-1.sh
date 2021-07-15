@@ -21,6 +21,7 @@ sudo rm teamviewer-host_armhf.deb
 # ddclient setup
 wget https://github.com/ddclient/ddclient/archive/refs/tags/v3.9.1.tar.gz
 tar -xvf v3.9.1.tar.gz
+cd v3.9.1
 ./configure \
     --prefix=/usr \
     --sysconfdir=/etc/ddclient \
@@ -31,6 +32,7 @@ sudo make install
 cp sample-etc_systemd.service /etc/systemd/system/ddclient.service
 systemctl enable ddclient.service
 service ddclient start
+cd ..
 sudo cp conf/ddclient.conf /etc/ddclient.conf
 
 sudo apt install snapd
