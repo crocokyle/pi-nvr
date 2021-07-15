@@ -12,6 +12,9 @@ sudo systemctl start ssh
 sudo apt -y update
 sudo apt -y upgrade
 
+# Install autoconf
+sudo apt-get install autoconf
+
 # Teamviewer setup
 wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
 sudo dpkg -i teamviewer-host_armhf.deb
@@ -20,7 +23,7 @@ sudo rm teamviewer-host_armhf.deb
 
 # ddclient setup
 wget https://github.com/ddclient/ddclient/archive/refs/tags/v3.9.1.tar.gz
-tar -xvf v3.9.1.tar.gz
+tar xvfa v3.9.1.tar.gz
 cd ddclient-3.9.1
 ./configure \
     --prefix=/usr \
