@@ -2,6 +2,11 @@
 sudo apt -y update
 sudo apt -y upgrade
 
+# Teamviewer setup
+wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
+sudo dpkg -i teamviewer-host_armhf.deb
+sudo apt --fix-broken install
+
 sudo apt install snapd
 echo ""
 echo "Complete!"
