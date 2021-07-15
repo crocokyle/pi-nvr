@@ -21,7 +21,7 @@ sudo rm teamviewer-host_armhf.deb
 # ddclient setup
 wget https://github.com/ddclient/ddclient/archive/refs/tags/v3.9.1.tar.gz
 tar -xvf v3.9.1.tar.gz
-cd v3.9.1
+cd ddclient-3.9.1
 ./configure \
     --prefix=/usr \
     --sysconfdir=/etc/ddclient \
