@@ -21,22 +21,9 @@ sudo dpkg -i teamviewer-host_armhf.deb
 sudo apt --fix-broken install
 sudo rm teamviewer-host_armhf.deb
 
-# ddclient setup
-wget https://github.com/ddclient/ddclient/archive/refs/tags/v3.9.1.tar.gz
-tar xvfa v3.9.1.tar.gz
-cd ddclient-3.9.1
-./configure \
-    --prefix=/usr \
-    --sysconfdir=/etc/ddclient \
-    --localstatedir=/var
-make
-make VERBOSE=1 check
-sudo make install
-cp sample-etc_systemd.service /etc/systemd/system/ddclient.service
-systemctl enable ddclient.service
-service ddclient start
-cd ..
-sudo cp conf/ddclient.conf /etc/ddclient.conf
+# inadyn setup
+sudo apt-get install inadyn
+sudo cp conf/inadyn.conf /etc/inadyn.conf
 
 sudo apt install snapd
 echo ""
