@@ -2,9 +2,8 @@
 Version=1.1
 Type=Application
 Encoding=UTF-8
-Name=GeeXLab
+Name=Resource Monitor
 Comment=Resource Monitor
-Icon=/home/pi/Downloads/GeeXLab_FREE_rpi_gl21/geexlab_icon.png
 Exec=gnome-system-monitor
 Terminal=false
 Categories=Graphics
