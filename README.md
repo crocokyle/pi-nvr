@@ -7,6 +7,15 @@
 ```bash
 git clone https://github.com/crocokyle/pi-nvr.git
 ```
+- Find your Google DDNS Credentials
+  - Open your [Google Domains Dashboard](https://domains.google.com/registrar)
+  - Select your domain
+  - DNS > Show Advanced Settings > Manage dynamin DNS > View Credentials
+- Edit the DDNS configuration file and add your username/password
+```bash
+nano ddclient.conf
+```
+  - `CTRL + X > Y > ENTER` to save
 - Run the first installation script
 ```bash
 cd pi-nvr
