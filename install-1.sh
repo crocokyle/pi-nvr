@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Change hostname
-sudo cp hosts /etc/hosts
-sudo cp hostname /etc/hostname
+sudo cp conf/hosts /etc/hosts
+sudo cp conf/hostname /etc/hostname
 
 # Enable SSH
 sudo systemctl enable ssh
@@ -29,7 +29,7 @@ sudo make install
 cp sample-etc_systemd.service /etc/systemd/system/ddclient.service
 systemctl enable ddclient.service
 service ddclient start
-sudo cp ddclient.conf /etc/ddclient.conf
+sudo cp conf/ddclient.conf /etc/ddclient.conf
 
 sudo apt install snapd
 echo ""
