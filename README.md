@@ -13,7 +13,7 @@ git clone https://github.com/crocokyle/pi-nvr.git
   - DNS > Show Advanced Settings > Manage dynamin DNS > View Credentials
 - Edit the DDNS configuration file and add your username/password
 ```bash
-nano inadyn.conf
+nano conf/inadyn.conf
 ```
   - `CTRL + X > Y > ENTER` to save
 - Run the first installation script
