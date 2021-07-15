@@ -5,5 +5,6 @@ Encoding=UTF-8
 Name=Resource Monitor
 Comment=Resource Monitor
 Exec=gnome-system-monitor
+Icon=/home/pi/pi-nvr/resmon.png
 Terminal=false
 Categories=Graphics
