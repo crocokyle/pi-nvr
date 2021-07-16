@@ -10,7 +10,7 @@ git clone https://github.com/crocokyle/pi-nvr.git
 - Find your Google DDNS Credentials
   - Open your [Google Domains Dashboard](https://domains.google.com/registrar)
   - Select your domain
-  - DNS > Show Advanced Settings > Manage dynamin DNS > View Credentials
+  - `DNS` > `Show Advanced Settings` > `Manage dynamin DNS` > `View Credentials`
 
 - Run the first installation script
 ```bash
@@ -27,18 +27,18 @@ cd pi-nvr
 # Configuration Steps
 
 ## Touch Screen Configuration
-- Open File Manger > Edit > Preferences > General
+- Open `File Manger` > `Edit` > `Preferences` > `General`
 - Check "Open files with single click"
 - Check "Don't ask options on launch executable file"
 
 ## Xoema Configuration
-- Click the Window Options button (Bottom-right - 5th button) > Window Settings
+- Click the `Window Options button` (Bottom-right - 5th button) > `Window Settings`
 - Check "Fullscreen mode"
 - Click "Ok"
-- Click the Preferences button (Bottom-right - 1st button) > Install > Install
+- Click the `Preferences button` (Bottom-right - 1st button) > `Install` > `Install`
 - Check "Autorun the client"
 - Set a remote access password
 - Click "Ok"
-- Click the Preferences button (Bottom-right - 1st button) > Remote access > Users
+- Click the `Preferences button` (Bottom-right - 1st button) > `Remote access` > `Users`
 - Set a remote access password
 - Click "Ok"
