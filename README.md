@@ -1,4 +1,8 @@
-# pi-nvr Installation
+# pi-nvr
+
+IaC repo to run a raspberry pi 4 as an NVR/Monitor
+
+# Installation
 
 - Download and install [the Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 - Select "Raspberry Pi OS (32-bit)" and write the image to your SD Card
@@ -24,7 +28,7 @@ cd pi-nvr
 ./install-2.sh
 ```
 
-# Configuration Steps
+# Configuration
 
 ## Touch Screen Configuration
 - Open `File Manger` > `Edit` > `Preferences` > `General`
