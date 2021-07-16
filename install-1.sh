@@ -24,6 +24,9 @@ sudo dpkg -i inadyn_2.3.1-2-bionic1_armhf.deb
 sudo apt-get -f install
 rm inadyn_2.3.1-2-bionic1_armhf.deb
 
+# Change directory permissions
+sudo chmod 777 /var/cache/inadyn
+
 # Prompt for username/password
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
