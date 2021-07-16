@@ -19,7 +19,10 @@ sudo apt --fix-broken install
 sudo rm teamviewer-host_armhf.deb
 
 # inadyn setup
-sudo apt-get install inadyn
+wget https://launchpad.net/~t.c/+archive/ubuntu/inadyn/+files/inadyn_2.3.1-2-bionic1_armhf.deb
+sudo dpkg -i inadyn_2.3.1-2-bionic1_armhf.deb
+sudo apt-get -f install
+
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
 echo "Enter your Google Domain DDNS Password:"
@@ -32,6 +35,9 @@ sed -i "s/PASS_WORD/$DDNSPASS/g" conf/temp.conf
 
 # Move configuration
 sudo mv conf/temp.conf /etc/inadyn.conf
+
+# Verify config
+inadyn --check-config
 
 # Setup snapd
 sudo apt install snapd
