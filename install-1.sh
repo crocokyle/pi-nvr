@@ -22,7 +22,7 @@ sudo rm teamviewer-host_armhf.deb
 sudo apt-get install inadyn
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
-echo "Enter your Google Domain DDNS Password:")
+echo "Enter your Google Domain DDNS Password:"
 read DDNSPASS
 
 # Replace user/pass in conf file
