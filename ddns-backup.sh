@@ -15,5 +15,5 @@ HOSTNAME="@.heavyiron77.com"
 IP=$(curl -s "https://domains.google.com/checkip")
 # Update Google DNS Record
 URL="https://${USERNAME}:${PASSWORD}@domains.google.com/nic/update?hostname=${HOSTNAME}&myip=${IP}"
-printf $(curl -s $URL) >> /var/log/ddns
+printf "$(date) $(curl -s $URL)" >> /var/log/ddns
 printf "\n" >> /var/log/ddns
