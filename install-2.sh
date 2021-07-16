@@ -9,3 +9,4 @@ sudo apt-get install libglu1-mesa htop ddclient
 wget https://felenasoft.com/xeoma/downloads/latest/linux/xeoma_linux_arm7.tgz
 tar -xvf xeoma_linux_arm7.tgz
 ./xeoma.app -install -coreauto
+rm xeoma_linux_arm7.tgz
