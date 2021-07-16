@@ -36,6 +36,9 @@ echo "If you haven't set this up yet, navigate to https://domains.google.com/reg
 echo "Select your domain > Manage > DNS > Show Advanced Settings > Manage dynamic DNS"
 echo "Leave the host blank or enter a subdomain."
 echo 'Click "Save"'
+echo 'Click "View credentials"'
+echo ""
+echo "==================================================================================="
 echo ""
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
@@ -52,6 +55,9 @@ sudo mv conf/temp.conf /etc/inadyn.conf
 
 # Verify config
 inadyn --check-config
+inadyn --loglevel=debug
+sudo systemctl restart inadyn
+sudo systemctl status inadyn
 
 # Setup snapd
 sudo apt install snapd
