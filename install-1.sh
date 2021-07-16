@@ -37,7 +37,12 @@ read DDNSUSER
 echo "Enter your Google Domain DDNS Password:"
 read DDNSPASS
 
+# Create log file
+sudo touch /var/log/ddns
+sudo chmod 777 /var/log/ddns
+
 # Replace user/pass
+cp ddns-backup.sh ddns.sh
 sed -i "s/USER_NAME/$DDNSUSER/g" ddns.sh
 sed -i "s/PASS_WORD/$DDNSPASS/g" ddns.sh
 

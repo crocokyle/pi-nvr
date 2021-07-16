@@ -1,1 +1,1 @@
-05 * * * * bash /home/pi/pi-nvr/ddns.sh >> /var/log/syslog
+* * * * * bash /home/pi/pi-nvr/ddns.sh
