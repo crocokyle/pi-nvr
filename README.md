@@ -42,3 +42,9 @@ cd pi-nvr
 - Click the `Preferences button` (Bottom-right - 1st button) > `Remote access` > `Users`
 - Set a remote access password
 - Click "Ok"
+
+## TODO
+- Max storage config
+- Camera setup
+- Email/SMS Notifications
+- Motion Detection
