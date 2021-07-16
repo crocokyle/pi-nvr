@@ -28,6 +28,15 @@ rm inadyn_2.3.1-2-bionic1_armhf.deb
 sudo chmod 777 /var/cache/inadyn
 
 # Prompt for username/password
+echo ""
+echo "==================================================================================="
+echo "Please retrieve your Google DDNS username/password"
+echo ""
+echo "If you haven't set this up yet, navigate to https://domains.google.com/registrar/"
+echo "Select your domain > Manage > DNS > Show Advanced Settings > Manage dynamic DNS"
+echo "Leave the host blank or enter a subdomain."
+echo 'Click "Save"'
+echo ""
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
 echo "Enter your Google Domain DDNS Password:"
