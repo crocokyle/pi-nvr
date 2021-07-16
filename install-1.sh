@@ -22,7 +22,9 @@ sudo rm teamviewer-host_armhf.deb
 wget https://launchpad.net/~t.c/+archive/ubuntu/inadyn/+files/inadyn_2.3.1-2-bionic1_armhf.deb
 sudo dpkg -i inadyn_2.3.1-2-bionic1_armhf.deb
 sudo apt-get -f install
+rm inadyn_2.3.1-2-bionic1_armhf.deb
 
+# Prompt for username/password
 echo "Enter your Google Domain DDNS Username:"
 read DDNSUSER
 echo "Enter your Google Domain DDNS Password:"
