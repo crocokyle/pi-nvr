@@ -1,6 +1,15 @@
 # pi-nvr
 
-IaC repo to run a raspberry pi 4 as an NVR/Monitor
+pi-nvr is a IaC repo that automates the installation and configuration of a Raspberry Pi 4 with a [touchscreen](https://www.amazon.com/gp/product/B08Q34RS7M/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) to run as an NVR and IP Camera Monitor.
+
+This repo installs and configures the following
+- Xeoma Server and Client
+- Google DDNS Client - 5 Minute Updates (logs to `/var/log/ddns`)
+- TeamViewer
+- SSH
+- snapd
+- gnome-system-monitor
+- htop
 
 # Installation
 
