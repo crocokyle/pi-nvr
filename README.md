@@ -56,6 +56,14 @@ cd pi-nvr
 - Set a remote access password
 - Click "Ok"
 
+## Stream URLs
+
+- rtsp://admin:admin@192.168.12.253:554/11
+- rtsp://admin:admin@192.168.12.243:554/live/sub
+- rtsp://admin:admin@192.168.12.243:554/live/main
+- rtsp://admin:admin@192.168.12.137:554/live/sub
+- rtsp://admin:admin@192.168.12.137:554/live/main
+
 ## TODO
 - Max storage config
 - Camera setup
