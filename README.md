@@ -64,6 +64,8 @@ cd pi-nvr
 - rtsp://admin:admin@192.168.12.137:554/live/sub
 - rtsp://admin:admin@192.168.12.137:554/live/main
 
+Camera Model#: `gw2737mic`
+
 ## TODO
 - Max storage config
 - Camera setup
